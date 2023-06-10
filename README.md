@@ -24,16 +24,21 @@
 </h5>
 
 
-### How it works
+## How It Works
 
-This tool generates free accounts on "prank dial" websites. The result is that the two phones will be connected to each other, and each phone will think that the other phone is calling it.
+This tool generates free accounts on "prank dial" website(s). The result is that the two phones will be connected to each other, and each phone will think that the other phone is calling it.
 
-### Usage
+## Usage
+
+1. Run `python main.py` and wait for an account to generate.
+2. Select "Operator" to route two phones to each other, or an audio playback prank.
+3. Enter two phone numbers (formatting doesn't matter). If "Operator" was selected, the two numbers will "call" each other. If an audio recording was selected, the "Dest" number will recieve the phone call from the "Spoof" number.
+4. Wait for the call to finish. It will now return a recording of the call.
 
 https://github.com/daijro/OperatorPrank/assets/72637910/ebba8f10-aa3a-4baa-a3c2-39912e1bbac8
 
 
-### Disclaimer
+## Disclaimer
 
 This repository is _not_ associated with or endorsed by providers of the APIs contained in this GitHub repository. This project is intended **for educational purposes only**. It is strictly intended to demonstrate the use of proxy rotators in Python networking.
 
