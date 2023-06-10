@@ -4,9 +4,6 @@
 
 
 <p align="center">
-    <a href="https://github.com/daijro/OperatorPrank/stargazers">
-        <img src="https://img.shields.io/github/stars/daijro/OperatorPrank?style=social">
-    </a>
     <a href="https://github.com/daijro/OperatorPrank/blob/main/LICENSE">
         <img src="https://img.shields.io/github/license/daijro/OperatorPrank">
     </a>
@@ -33,7 +30,8 @@ This tool generates free accounts on "prank dial" websites. The result is that t
 
 ### Usage
 
-To be added
+https://github.com/daijro/OperatorPrank/assets/72637910/ebba8f10-aa3a-4baa-a3c2-39912e1bbac8
+
 
 ### Disclaimer
 
