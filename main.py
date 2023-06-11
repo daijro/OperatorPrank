@@ -46,7 +46,7 @@ class FetchProxy:
             try:
                 resp = requests.get(
                     self.test_url,
-                    proxies={'https': proxy},
+                    proxies={'socks5': proxy, 'socks5h': proxy},
                     timeout=2,
                     headers=Headers(headers=True).generate(),
                 )
@@ -57,17 +57,7 @@ class FetchProxy:
             return proxy
 
     def set_proxy_list(self):
-        resp = requests.get(
-            'https://api.proxyscrape.com/',
-            params={
-                'request': 'getproxies',
-                'proxytype': 'https',
-                'timeout': '2000',
-                'country': 'all',
-                'ssl': 'all',
-                'anonymity': 'all',
-            },
-        )
+        resp = requests.get('https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks5.txt')
         self.proxy_list = resp.text.splitlines()
         print(f'Found {len(self.proxy_list)} proxies')
 
