@@ -22,7 +22,7 @@ from mailtm import Email
 
 
 __author__ = 'daijro'
-__version__ = '1.0'
+__version__ = '1.1'
 
 
 logging.basicConfig(level=logging.INFO)
