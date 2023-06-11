@@ -104,7 +104,7 @@ class Pranker:
         new_email and self.spawnEmailHandler()
         proxy = self.proxy_fetcher.get()
         print('Found working proxy:', proxy)
-        self.sess.proxies = {'https': proxy}
+        self.sess.proxies = {'socks5': proxy, 'socks5h': proxy}
         self.generateAccount()
 
     def spawnEmailHandler(self):
